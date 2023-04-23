@@ -23,11 +23,11 @@ For details, please refer to the above paper. The follwing briefly summarize our
 	numpy 1.18.5
 
 ##File instructions:
-caculate_all_result.py:  Calculate overall acc,F1,recall using txt result files of every subject in LOSO in txt folder.
-generate_adj_for_MFED.py: Generate node matrix, 3D learnable adjacency matrix and mask matrix.
-generate_txt.py: Generate train and test dataset using LOSO.
-MEIP_Micro_FACS_Codes.jason:Record dataset labels and other related information.
-my_dataset.py:Custom dataset code.
-utils.py: Include code for training, testing, and calculating metrics.
-model:The specific code of the model.
-explain.py,rollout.py,grad_rollout.py:Code for visualization.
+	caculate_all_result.py:  Calculate overall acc,F1,recall using txt result files of every subject in LOSO in txt folder.
+	generate_adj_for_MFED.py: Generate node matrix, 3D learnable adjacency matrix and mask matrix.
+	generate_txt.py: Generate train and test dataset using LOSO.
+	MEIP_Micro_FACS_Codes.jason:Record dataset labels and other related information.
+	my_dataset.py:Custom dataset code.
+	utils.py: Include code for training, testing, and calculating metrics.
+	model:The specific code of the model.
+	explain.py,rollout.py,grad_rollout.py:Code for visualization.
