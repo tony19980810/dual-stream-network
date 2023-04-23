@@ -21,8 +21,8 @@ For details, please refer to the above paper. The follwing briefly summarize our
 	pillow 8.3.1
 	opencv 4.0.1
 	numpy 1.18.5
-
-##File instructions:
+	
+## File instructions:
 	caculate_all_result.py:  Calculate overall acc,F1,recall using txt result files of every subject in LOSO in txt folder.
 	generate_adj_for_MFED.py: Generate node matrix, 3D learnable adjacency matrix and mask matrix.
 	generate_txt.py: Generate train and test dataset using LOSO.
